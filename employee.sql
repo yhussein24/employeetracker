@@ -25,3 +25,7 @@ CREATE TABLE employee (
   manager_id INT, 
   PRIMARY KEY (id)
 );
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sharif54';
+
+flush privileges;
