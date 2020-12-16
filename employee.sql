@@ -26,6 +26,6 @@ CREATE TABLE employee (
   PRIMARY KEY (id)
 );
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sharif54';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your password';
 
 flush privileges;
